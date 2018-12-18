@@ -23,7 +23,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "redits8") {
+  if (command == "8") {
 if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
    message.channel.sendMessage(args.join("  "))
    message.delete()
